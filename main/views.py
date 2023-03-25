@@ -6,6 +6,7 @@ from django.contrib import messages
 from .forms import AnswerForm,QuestionForm,ProfileForm
 from django.contrib.auth.forms import UserCreationForm
 from django.db.models import Count
+
 # Home Page
 def home(request):
     if 'q' in request.GET:
