@@ -1,0 +1,1 @@
+web: gunicorn SHAWSPACE.wsgi --log-file -
